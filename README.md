@@ -13,3 +13,7 @@ For the following poem:
 "Slow moving river. / Flash of iridescent blue. / A kingfisher strikes"
 the syllable count is 5, 7 and 5 respectively. Therefore your algorithm would return true
 
+# Instructions
+Run npm install
+npm install syllables
+To run tests: npm run test

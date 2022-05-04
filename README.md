@@ -15,5 +15,7 @@ the syllable count is 5, 7 and 5 respectively. Therefore your algorithm would re
 
 # Instructions
 Run npm install
+
 npm install syllables
+
 To run tests: npm run test

@@ -1,0 +1,17 @@
+{
+  "name": "haikuchallenge",
+  "version": "1.0.0",
+  "description": "Haiku Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "syllables": "^1.0.0"
+  }
+}

@@ -37,6 +37,13 @@ function haiku(poem) {
     };
   }
 
+  if ((poem.split('/').length-1)>2) {
+    return {
+        error: "Invalid input. Enter three sentences",
+        result: false,
+      };
+}
+
   result = checkLine(poem);
   console.log(result);
   expected = [5, 7, 5];

@@ -39,13 +39,11 @@ test("An old silent pond / a frog jumps into the pond. / Splash! Silence again."
     ).toBe(false);
   });
 
-
-//   test("Mirror, mirror / on the wall / who's the fairest / of them all?", () => {
-//   expect(
-//     haiku(
-//       "The light of a candle",
-//       "Is transferred to another candle",
-//       "Spring twilight"
-//     )
-//   ).toBe(false);
-// });
+  test("Mirror, mirror / on the wall / who's the fairest / of them all?", () => {
+  expect(
+    haiku("Mirror, mirror / on the wall / who's the fairest / of them all?")
+  ).toMatchObject({
+    error: "Invalid input. Enter three sentences",
+    result: false,
+  });
+});

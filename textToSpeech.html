@@ -1,0 +1,30 @@
+<!doctype html>
+
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>JavaScript Text to Speech</h2>
+    <div><input type="text" id="text-to-speech" placeholder="Enter text to speak..." /></div>
+    <div><button type="button" onclick="textToAudio()">Speak</button></div>
+    <br />
+    <script>
+        function textToAudio() {
+            let msg = document.getElementById("text-to-speech").value;
+            let speech = new SpeechSynthesisUtterance();
+            speech.lang = "en-UK";
+            speech.text = msg;
+            speech.volume = 1;
+            speech.rate = 1;
+            speech.pitch = 1;
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+</body>
+
+</html>

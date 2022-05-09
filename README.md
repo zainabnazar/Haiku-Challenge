@@ -19,3 +19,16 @@ Run npm install
 npm install syllables
 
 To run tests: npm run test
+
+# Text to Speech
+Need to install:
+
+npm i prompt say
+
+To run the speech feature run the following command:
+
+node textToSpeech.js
+
+Then enter the text 
+
+

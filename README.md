@@ -20,8 +20,10 @@ npm install syllables
 
 To run tests: npm run test
 
-# Text to Speech
-1- From the CLI: need to install:
+# Text to Speech 
+You could either use 1 or 2 for text to speech feature
+
+#  1- From the CLI: need to install:
 
 npm i prompt say
 
@@ -31,7 +33,7 @@ node textToSpeech.js
 
 Then enter the text 
 
-2- From live server:
+# 2- From live server:
 
 Navigate to textToSpeech.html file >> right click >> open with live server. Then you can put on any haiku to change it to speech
 

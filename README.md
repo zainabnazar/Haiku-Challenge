@@ -35,5 +35,5 @@ Then enter the text
 
 # 2- From live server:
 
-Navigate to textToSpeech.html file >> right click >> open with live server. Then you can put on any haiku to change it to speech
+Navigate to textToSpeech.html file >> right click >> open with live server. Then you can put on any haiku in the input field
 

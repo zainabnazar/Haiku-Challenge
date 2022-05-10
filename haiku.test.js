@@ -1,4 +1,4 @@
-//const syllables = require('syllables');
+
 var haiku = require("./haiku");
 test("Throw error when passing empty string or not passing any poem", () => {
   expect(haiku("")).toMatchObject({
